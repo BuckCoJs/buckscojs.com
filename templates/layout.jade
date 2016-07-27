@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= locals.title
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Raleway:400,300,600')
+    link(rel='stylesheet', href=contents.css['normalize.css'].url)
+    link(rel='stylesheet', href=contents.css['skeleton.css'].url)
+    link(rel='stylesheet', href=contents.css['main.css'].url)
+  body
+    .container
+      section.row
+        .column.two-thirds
+          block content
+
+        .column.one-third
+          block sidebar
+            section.sidebar-section
+              h2= 'About'
+              != contents['about.md'].html

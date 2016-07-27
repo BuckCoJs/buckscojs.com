@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  - var meetup = contents.meetups['2016-08-lightning-talks.md'];
+
+  h1= meetup.metadata.title
+  != meetup.html
+
+block prepend sidebar
+  - var meetup = contents.meetups['2016-08-lightning-talks.md'];
+
+  section.sidebar-section
+    h2= 'Next Meetup'
+    div.next-topic= meetup.metadata.title
+    div
+      span= moment.utc(meetup.date).format('D MMM YYYY')
+      span= ', '
+      span= meetup.metadata.time
+    div= meetup.metadata.location

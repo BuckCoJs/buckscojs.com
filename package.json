@@ -1,0 +1,18 @@
+{
+  "name": "buckscojs.com",
+  "version": "1.0.0",
+  "description": "BucksCoJS website",
+  "scripts": {
+    "build": "wintersmith build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wintersmith preview"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "moment": "^2.14.1",
+    "wintersmith": "^2.3.2"
+  }
+}
