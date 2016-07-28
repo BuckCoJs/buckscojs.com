@@ -4,6 +4,7 @@ template: meetup.jade
 date: 2016-08-03
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
+speaker: Jim Fitzpatrick, Brett Erpel, Evan DiPietro, Jason Krol
 ---
 
 Hi Everyone! We have our August meetup all ready to go! Join us at 6:30pm for
@@ -17,3 +18,4 @@ Talks currently include:
 - __Localization & Internationalization__, by Jim Fitzpatrick
 - __Ditching jQuery__, by Brett Erpel
 - __Service Workers__, by Evan DiPietro
+- __Set-Top Box Apps Using AngularJS__, by Jason Krol
