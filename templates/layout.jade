@@ -10,6 +10,13 @@ html(lang='en')
     link(rel='stylesheet', href=contents.css['main.css'].url)
   body
     .container
+      nav.navbar
+        div.container
+          ul.navbar__list
+            li.navbar__listitem
+              a(href='/').navbar__link= locals.title
+            li.navbar__listitem
+              a(href='/meetups/').navbar__link Meetups
       section.row
         .column.two-thirds
           block content

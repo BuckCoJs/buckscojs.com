@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  - var meetups = _.chain(contents['meetups']._.pages.slice(0)).filter(function(meetup) {
+  -   return meetup.template === 'meetup.jade';
+  - }).groupBy(function(meetup) {
+  -   return meetup.date.getFullYear();
+  - }).value();
+
+  h1= 'Meetups'
+  ul
+    - var years = _.chain(meetups).keys().reverse().value();
+    each year in years
+      - var yearMeetups = meetups[year].sort(function(a, b) { return b.date - a.date; });
+      li
+        span= year
+        ul
+          each yearMeetup in yearMeetups
+            li.meetup
+              span.meetup__date= moment.utc(yearMeetup.date).format('MMM ')
+              span.meetup__title
+                a(href=yearMeetup.url)= yearMeetup.title

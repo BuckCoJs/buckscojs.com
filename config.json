@@ -3,6 +3,7 @@
     "title": "BucksCoJS"
   },
   "require": {
-    "moment": "moment"
+    "moment": "moment",
+    "_": "underscore"
   }
 }
