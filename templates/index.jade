@@ -12,8 +12,6 @@ block prepend sidebar
   section.sidebar-section
     h2= 'Next Meetup'
     div.next-topic= meetup.metadata.title
+    div #{moment.utc(meetup.date).format('D MMM YYYY')}, #{meetup.metadata.time}
     div
-      span= moment.utc(meetup.date).format('D MMM YYYY')
-      span= ', '
-      span= meetup.metadata.time
-    div= meetup.metadata.location
+      a(href='https://maps.google.com/?q=#{meetup.metadata.location}',target='_blank')= meetup.metadata.location
