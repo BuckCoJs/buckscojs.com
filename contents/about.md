@@ -1,5 +1,5 @@
 ---
-view: none
+template: about.jade
 ---
 
 Bucks County JS is a group of professionals that are interested in, and
