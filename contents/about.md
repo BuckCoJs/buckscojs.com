@@ -7,3 +7,5 @@ involved with development in the browser and beyond. We usually meet on the
 first Wednesday of every month. Topics include JavaScript, HTML, CSS, Node.js,
 build tools and automation, popular/upcoming frameworks and libraries, and
 more!
+
+All participants are expected to follow the [JSConf code of Conduct](http://jsconf.com/codeofconduct.html).
