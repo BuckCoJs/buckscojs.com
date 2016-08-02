@@ -5,6 +5,7 @@ date: 2016-05-04
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jim Fitzpatrick
+eventId: 230520592
 ---
 
 Hi Everyone We have our May meetup all ready to go! Join us at 6:30pm for

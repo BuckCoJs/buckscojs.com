@@ -5,6 +5,7 @@ date: 2015-09-03
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Sam Provenza, CF Grugan
+eventId: 224786895
 ---
 
 We're Back!

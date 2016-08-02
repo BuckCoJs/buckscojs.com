@@ -5,6 +5,7 @@ date: 2016-06-08
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jim Lynch
+eventId: 231226655
 ---
 
 Hi Everyone! We have our June meetup all ready to go! Join us at 6:30pm for

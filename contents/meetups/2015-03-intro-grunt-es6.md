@@ -5,6 +5,7 @@ date: 2015-03-10
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Ben Spoon, Jason Krol, Jim Fitzpatrick
+eventId: 220164844
 ---
 
 Bucks County Front-End First Meetup!

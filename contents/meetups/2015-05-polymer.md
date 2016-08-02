@@ -5,6 +5,7 @@ date: 2015-05-07
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jonathan Belcher
+eventId: 221893260
 ---
 
 Join us for our next meeting, Thursday May 7th.

@@ -5,6 +5,7 @@ date: 2016-01-06
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jim Fitzpatrick
+eventId: 227589650
 ---
 
 Hi Everyone -

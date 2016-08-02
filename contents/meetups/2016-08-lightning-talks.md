@@ -5,6 +5,7 @@ date: 2016-08-03
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jim Fitzpatrick, Brett Erpel, Evan DiPietro, Jason Krol
+eventId: 231227258
 ---
 
 Hi Everyone! We have our August meetup all ready to go! Join us at 6:30pm for

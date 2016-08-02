@@ -5,6 +5,7 @@ date: 2016-04-06
 time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Kyle Tyacke
+eventId: 228093704
 ---
 
 Hi Everyone We have our April meetup all ready to go! Join us at 6:30pm for
