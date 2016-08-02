@@ -6,6 +6,7 @@ time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Ben Spoon, Jason Krol, Jim Fitzpatrick
 eventId: 220164844
+slides: https://speakerdeck.com/jimf/things-youll-love-about-es6
 ---
 
 Bucks County Front-End First Meetup!

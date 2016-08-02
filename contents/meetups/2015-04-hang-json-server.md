@@ -6,6 +6,7 @@ time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Ben Spoon, Jim Fitzpatrick
 eventId: 221164444
+slides: https://speakerdeck.com/jimf/faking-rest-apis-in-under-30-seconds
 ---
 
 Join us for our next meeting, April 6th.

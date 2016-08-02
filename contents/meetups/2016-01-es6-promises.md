@@ -6,6 +6,7 @@ time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jim Fitzpatrick
 eventId: 227589650
+slides: https://speakerdeck.com/jimf/a-look-at-es6-promises
 ---
 
 Hi Everyone -
