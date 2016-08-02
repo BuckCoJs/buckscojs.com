@@ -1,6 +1,7 @@
 {
   "locals": {
-    "title": "BucksCoJS"
+    "title": "BucksCoJS",
+    "urlname": "Bucks-Co-Js"
   },
   "require": {
     "moment": "moment",
