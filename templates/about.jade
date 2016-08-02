@@ -26,15 +26,3 @@ block content
             h4.organizer__name Jim Fitzpatrick
             p.organizer__twitter
               a(href='https://twitter.com/fitzpatrick_j',target='_blank') @fitzpatrick_j
-
-block prepend sidebar
-  - var meetup = contents.meetups['2016-08-lightning-talks.md'];
-
-  section.sidebar-section
-    h2= 'Next Meetup'
-    div.next-topic= meetup.metadata.title
-    div #{moment.utc(meetup.date).format('D MMM YYYY')}, #{meetup.metadata.time}
-    div
-      a(href='https://maps.google.com/?q=#{meetup.metadata.location}',target='_blank')= meetup.metadata.location
-    div.rsvp
-      a.button(href='http://www.meetup.com/' + locals.urlname + '/events/' + meetup.metadata.eventId + '/',target='_blank') RSVP
