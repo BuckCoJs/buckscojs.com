@@ -6,6 +6,7 @@ time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jim Fitzpatrick, Brett Erpel, Evan DiPietro
 eventId: 231227258
+slides: https://speakerdeck.com/jimf/globalizing-js-applications
 ---
 
 Hi Everyone! We have our August meetup all ready to go! Join us at 6:30pm for
