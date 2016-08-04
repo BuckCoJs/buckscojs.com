@@ -27,13 +27,23 @@ html(lang='en')
 
         .column.one-third
           block sidebar
-            - var meetup = contents.meetups['2016-08-lightning-talks.md'];
+            - var meetup = contents.meetups['2016-09-tbd.md'];
 
             section.sidebar-section
               h2= 'Next Meetup'
-              div.next-topic= meetup.metadata.title
-              div #{moment.utc(meetup.date).format('D MMM YYYY')}, #{meetup.metadata.time}
+
+              if meetup.metadata.title
+                div.next-topic= meetup.metadata.title
+              else
+                div.next-topic
+                  em Topic TBD
+
+              if meetup.metadata.date
+                div #{moment.utc(meetup.date).format('D MMM YYYY')}, #{meetup.metadata.time}
+
               div
                 a(href='https://maps.google.com/?q=#{meetup.metadata.location}',target='_blank')= meetup.metadata.location
-              div.rsvp
-                a.button(href='http://www.meetup.com/' + locals.urlname + '/events/' + meetup.metadata.eventId + '/',target='_blank') RSVP
+
+              if meetup.metadata.eventId
+                div.rsvp
+                  a.button(href='http://www.meetup.com/' + locals.urlname + '/events/' + meetup.metadata.eventId + '/',target='_blank') RSVP
