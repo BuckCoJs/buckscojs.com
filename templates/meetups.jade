@@ -2,7 +2,7 @@ extends layout
 
 block content
   - var meetups = _.chain(contents['meetups']._.pages.slice(0)).filter(function(meetup) {
-  -   return meetup.template === 'meetup.jade';
+  -   return meetup.template === 'meetup.jade' && meetup.metadata.title;
   - }).groupBy(function(meetup) {
   -   return meetup.date.getFullYear();
   - }).value();
