@@ -19,6 +19,20 @@ Run the following to generate the site to `build/`:
 
 Take a look at the wintersmith README and examples for usage.
 
+## Publishing an Update
+
+NOTE: This is a few too many steps. We should wrap this up better (e.g., gulp).
+
+- Make and commit change
+- `npm run build`
+- Commit build
+- Push master
+- `git checkout master`
+- `git push origin :gh-pages`
+- `git subtree split --prefix build -b gh-pages`
+- `git push origin gh-pages:gh-pages`
+- Check repo Settings and verify `Custom domain` is still set to "www.buckscojs.com"
+
 ## License
 
 MIT
