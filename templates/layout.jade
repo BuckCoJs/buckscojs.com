@@ -29,7 +29,7 @@ html(lang='en')
 
         .column.one-third
           block sidebar
-            - var meetup = contents.meetups['2016-11-regexp-js-as-designer.md'];
+            - var meetup = contents.meetups[locals.featuredMeetup + '.md'];
 
             section.sidebar-section
               h2= 'Next Meetup'

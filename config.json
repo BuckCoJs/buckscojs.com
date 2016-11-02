@@ -2,7 +2,8 @@
   "locals": {
     "title": "BucksCoJS",
     "urlname": "Bucks-Co-Js",
-    "speakerFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeaJUcpWseC09AuCDdRYpuZ9P184wtz7c9I8q1ILmv4M6d5sw/viewform"
+    "speakerFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeaJUcpWseC09AuCDdRYpuZ9P184wtz7c9I8q1ILmv4M6d5sw/viewform",
+    "featuredMeetup": "2016-10-regexp-js-as-designer"
   },
   "require": {
     "moment": "moment",
