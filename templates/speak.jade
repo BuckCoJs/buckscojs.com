@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  script.
+    window.location.assign('#{locals.speakerFormUrl}')
+
+  h1 Speak
+  a(href=locals.speakerFormUrl,target='_blank') Speaker Form
