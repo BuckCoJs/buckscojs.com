@@ -19,6 +19,11 @@ Run the following to generate the site to `build/`:
 
 Take a look at the wintersmith README and examples for usage.
 
+## Adding a Meetup
+
+1. Create a new markdown file in `content/meetups/` following the other files as examples
+1. Update `featuredMeetup` in `config.json` in order to update the homepage/sidebar
+
 ## Publishing an Update
 
 NOTE: This is a few too many steps. We should wrap this up better (e.g., gulp).
