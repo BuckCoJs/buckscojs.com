@@ -6,6 +6,7 @@ time: 6:30-8pm
 location: 1100 Manor Drive, Chalfont PA, 18914
 speaker: Jason Krol
 eventId: 233911859
+slides: https://speakerdeck.com/shorttompkins/buckscojs-building-set-top-box-apps-using-angularjs
 ---
 
 Hi Everyone! We have our October meetup all ready to go! Join us at 6:30pm for
